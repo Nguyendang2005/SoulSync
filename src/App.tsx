@@ -39,14 +39,14 @@ function AnimatedRoutes() {
           element={
             <PageWrapper>
               <div className="min-h-[60vh] flex flex-col items-center justify-center p-10 text-center">
-                <h1 className="text-4xl mb-4 text-brand-blue">Coming Soon</h1>
-                <p className="text-on-surface-variant mb-8">We're still crafting this gentle corner of SoulSync.</p>
+                <h1 className="text-4xl mb-4 text-brand-blue">Sắp ra mắt</h1>
+                <p className="text-on-surface-variant mb-8">Chúng tôi vẫn đang xây dựng góc nhỏ bình yên này của SoulSync.</p>
                 <motion.a 
                   href="/" 
                   whileHover={{ scale: 1.05 }}
                   className="bg-brand-blue text-white px-8 py-3 rounded-full font-bold"
                 >
-                  Back to Sanctuary
+                  Trở về nơi bình yên
                 </motion.a>
               </div>
             </PageWrapper>

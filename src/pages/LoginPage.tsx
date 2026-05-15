@@ -11,7 +11,7 @@ export default function LoginPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Simulate login
-    console.log('Logging in with:', email);
+    console.log('Đang đăng nhập với:', email);
     navigate('/');
   };
 
@@ -23,8 +23,8 @@ export default function LoginPage() {
         className="max-w-md w-full glass p-8 md:p-12 rounded-[2rem] ambient-shadow border border-white"
       >
         <div className="text-center mb-10">
-          <h1 className="text-3xl mb-2">Welcome Back</h1>
-          <p className="text-on-surface-variant">Continue your journey to clarity.</p>
+          <h1 className="text-3xl mb-2">Chào mừng trở lại</h1>
+          <p className="text-on-surface-variant">Tiếp tục hành trình tìm kiếm sự bình yên.</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -36,7 +36,7 @@ export default function LoginPage() {
                 type="email" 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="university@email.edu"
+                placeholder="sinhvien@truongdaihoc.edu.vn"
                 className="w-full bg-brand-beige border-none rounded-2xl py-4 pl-12 pr-4 focus:ring-2 focus:ring-brand-blue transition-all"
                 required
               />
@@ -44,7 +44,7 @@ export default function LoginPage() {
           </div>
 
           <div className="space-y-2">
-            <label className="text-sm font-bold ml-2 text-on-surface-variant">Password</label>
+            <label className="text-sm font-bold ml-2 text-on-surface-variant">Mật khẩu</label>
             <div className="relative">
               <Lock className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-on-surface-variant/50" />
               <input 
@@ -57,7 +57,7 @@ export default function LoginPage() {
               />
             </div>
             <div className="text-right">
-              <button type="button" className="text-xs font-bold text-brand-blue hover:underline">Forgot password?</button>
+              <button type="button" className="text-xs font-bold text-brand-blue hover:underline">Quên mật khẩu?</button>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ export default function LoginPage() {
             type="submit"
             className="w-full bg-brand-blue text-white py-4 rounded-full font-bold flex items-center justify-center gap-2 group hover:scale-[1.02] transition-all"
           >
-            Log In
+            Đăng nhập
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
         </form>
@@ -75,7 +75,7 @@ export default function LoginPage() {
             <div className="w-full border-t border-surface-dim" />
           </div>
           <div className="relative flex justify-center text-xs">
-            <span className="px-2 bg-brand-beige text-on-surface-variant font-bold uppercase tracking-widest">or continue with</span>
+            <span className="px-2 bg-brand-beige text-on-surface-variant font-bold uppercase tracking-widest">hoặc tiếp tục với</span>
           </div>
         </div>
 
@@ -91,8 +91,8 @@ export default function LoginPage() {
         </div>
 
         <p className="mt-10 text-center text-sm text-on-surface-variant">
-          Don't have an account?{' '}
-          <Link to="/get-started" className="text-brand-blue font-bold hover:underline">Sign up for free</Link>
+          Chưa có tài khoản?{' '}
+          <Link to="/get-started" className="text-brand-blue font-bold hover:underline">Đăng ký miễn phí</Link>
         </p>
       </motion.div>
     </div>

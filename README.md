@@ -2,21 +2,20 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Chạy và triển khai ứng dụng AI Studio của bạn
 
-This contains everything you need to run your app locally.
+Đây là tất cả những gì bạn cần để chạy ứng dụng của mình trên máy tính (local).
 
-View your app in AI Studio: https://ai.studio/apps/a659d65c-413c-4293-8a5e-64e0bb1a9d5f
+Xem ứng dụng của bạn trong AI Studio: https://ai.studio/apps/a659d65c-413c-4293-8a5e-64e0bb1a9d5f
 
-## Run Locally
+## Chạy trên máy tính (Local)
 
-**Prerequisites:**  Node.js
+**Yêu cầu:** Node.js
 
-
-1. Install dependencies:
+1. Cài đặt các thư viện (dependencies):
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Đặt `GEMINI_API_KEY` trong file [.env.local](.env.local) bằng Gemini API key của bạn
+3. Chạy ứng dụng:
    `npm run dev`
 
 # SoulSync

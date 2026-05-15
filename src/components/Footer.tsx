@@ -7,12 +7,12 @@ export default function Footer() {
         <div className="text-center md:text-left">
           <h2 className="text-xl font-bold text-brand-blue font-sans">SoulSync</h2>
           <p className="text-sm text-on-surface-variant mt-2 max-w-xs">
-            © 2024 SoulSync. A safe space for university students.
+            © 2024 SoulSync. Không gian an toàn dành cho sinh viên đại học.
           </p>
         </div>
         
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
-          {['Privacy Policy', 'Terms of Service', 'Emergency Contacts', 'Student Resources'].map((link) => (
+          {['Chính sách bảo mật', 'Điều khoản dịch vụ', 'Liên hệ khẩn cấp', 'Tài nguyên sinh viên'].map((link) => (
             <a
               key={link}
               href="#"

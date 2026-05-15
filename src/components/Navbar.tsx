@@ -16,10 +16,10 @@ export default function Navbar() {
         
         <div className="hidden md:flex items-center gap-8">
           {[
-            { label: 'Home', path: '/' },
-            { label: 'Assessment', path: '/assessment' },
-            { label: 'Resources', path: '/resources' },
-            { label: 'Support', path: '/support' },
+            { label: 'Trang chủ', path: '/' },
+            { label: 'Đánh giá', path: '/assessment' },
+            { label: 'Tài nguyên', path: '/resources' },
+            { label: 'Hỗ trợ', path: '/support' },
           ].map((item) => (
             <Link
               key={item.label}
@@ -45,13 +45,13 @@ export default function Navbar() {
             to="/login" 
             className="text-sm font-semibold text-on-surface-variant hover:text-brand-blue transition-colors px-4"
           >
-            Log In
+            Đăng Nhập
           </Link>
           <Link
             to="/get-started"
             className="bg-brand-blue text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:opacity-90 transition-all hover:scale-105 active:scale-95"
           >
-            Get Started
+            Bắt Đầu
           </Link>
         </div>
       </nav>
